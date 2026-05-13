@@ -1,0 +1,47 @@
+{
+  "basics": {
+    "name": "Kent Burgess",
+    "label": "Student",
+    "picture": "https://github.com/KentHB.png",
+    "email": "kentb@hawaii.edu",
+    "phone": "808-724-3025",
+    "website": "https://kenthb.github.io/",
+    "summary": "I'm studying for a B.S. in Computer Science at the University of Hawaii.                                                                     My home campus is located in Manoa. I expect to graduate Spring, '25.",
+    "location": { "address": "", "postalCode": "96813", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "KentHB", "url": "http://github.com/KentHB" },
+      { "network": "linkedin", "username": "Kent Burgess", "url": "http://linkedin.com/in/kent-burgess-4a05b62a9/" },
+    ]
+  },
+  "interests": [
+    { "name": "Software development" },
+    { "name": "Web development" },
+    { "name": "Interactive media" },
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "Java", "Javascript" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows", "Ubuntu", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2020-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
