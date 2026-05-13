@@ -1,22 +1,24 @@
 ---
 layout: essay
 type: essay
-title: "The Longest Workout Ever"
+title: "ICS 414 Reflection"
 # All dates must be YYYY-MM-DD format!
-date: 2024-05-10
+date: 2026-05-13
 published: true
 labels:
+  - ICS 414
   - JavaScript
   - HTML
   - CSS
   - Software Engineering
 ---
 
-## A Reflection On Software Engineering
-What did I learn this semester? In full honesty, it wasn't until the final project that I started to feel like I was truly learning something. Coincidentally, the final project was our first expedition into creating a website from the ground up, with functions according to a given prompt by our Professors. Ours was a Trading Card Simulator, and I felt with blunt force my limitations as a Software Engineer and a group member. I'm familiar with a handful of TCGs (Trading Card Games), and so I knew what functions people expected of a digital Trading Card website, but could I execute what I had in mind?
+## The Brief
+This is my reflection on ICS 414: Software Engineering II.
+We were tasked with working on a project for the duration of our semester. For us, this meant building off an existing project from previous students and rewriting it with our desired functional changes. Most of our time was spent deciphering the code from the existing project and figuring out how to implement new functions or modify those that were already implemented. Communication with my team was held over Discord, where we kept each other up-to-date on our CI/CD Github pipeline. Conflicts in Github were very rare, and things went pretty smoothly overall. How lucky!!
 
-## User Interface Frameworks
-Arguably my favorite part of this semester came in the discussion of User Interfaces. It's almost a matter of reducing explanations to their most simple, yet recognizable forms. A lot of the fun that I had in this portion of the course came from figuring out how to word something. Here's a snippet from my personal Trading Card Simulator UI that I was messing around with in private. This didn't make it to the final deployment of our TCG Simulator, as I was uncertain if it would even function, but it ended up being a nice visual study regardless:
+## My Contributions
+I was responsible for several of the technical sides of our Shelf Awareness website's UI. My goal was to make using the website a more intuitive and receptive experience for the average user. What I first did was update a few pages on the website so that if the user would create or modify an entry on said page, it would update upon submission and be reflected on-screen immediately in real time than require a page refresh. I also added filters to the search functions of some pages, and made user data from certain pages accessible in other pages so that I could add more functions which were capable of referencing the user's data and using it to modify some other data belonging to the user, within the same page.
 
 <div class="text-center p-4">
   <video width="900" controls>
