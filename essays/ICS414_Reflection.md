@@ -21,8 +21,8 @@ We were tasked with working on a project for the duration of our semester. For u
 I was responsible for several of the technical sides of our Shelf Awareness website's UI. My goal was to make using the website a more intuitive and receptive experience for the average user. What I first did was update a few pages on the website so that if the user would create or modify an entry on said page, it would update upon submission and be reflected on-screen immediately in real time than require a page refresh. I also added filters to the search functions of some pages, and made user data from certain pages accessible in other pages so that I could add more functions which were capable of referencing the user's data and using it to modify some other data belonging to the user, within the same page.
 
 <div class="text-center p-4">
-  <img src="../img/dietaryfilters.png" width="450" style="display: inline-block;">
-  <img src="../img/shoppinglistfromrecipe.png" width="450" style="display: inline-block;">
+  <img src="../img/dietaryfilters.png" width="900" style="display: inline-block;">
+  <img src="../img/shoppinglistfromrecipe.png" width="900" style="display: inline-block;">
 </div>
 
 ## My Favorite Implementations: Intuitive Functionality
