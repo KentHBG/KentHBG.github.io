@@ -28,7 +28,7 @@ I mentioned sorting and filtering being one of the functionalities that I worked
   <img src="../img/shoppinglistfromrecipe.png" width="600" style="display: inline-block; cursor: pointer;" onclick="openModal(this)">
 </div>
 
-<div id="imgModal" onclick="closeModal()" style="display:none; position:fixed; top:0; left:0; width:70%; height:70%; background:rgba(0,0,0,0.8); z-index:1000; justify-content:center; align-items:center;">
+<div id="imgModal" onclick="closeModal()" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; justify-content:center; align-items:center;">
   <img id="modalImg" style="max-width:90%; max-height:90%; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
 </div>
 
