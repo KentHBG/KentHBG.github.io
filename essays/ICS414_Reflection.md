@@ -23,28 +23,26 @@ I was responsible for several of the technical sides of our Shelf Awareness webs
 ## My Favorite Implementations: Intuitive Functionality
 I mentioned sorting and filtering being one of the functionalities that I worked on, and for those all I really did was look for what would be the most useful filters people would likely use, like recipes they can afford to make or recipes they have the ingredients to make. I could've added more filters, but I felt like adding any more would complicate things. I wanted the website to be on the simpler side, where all it takes is one glance to get an understanding of how everything works. That meant choosing words and phrases that conveyed the purpose of those functions quickly. The last thing I'd want is for someone to go into the website, try to use some function, get a result that they didn't expect, and think to themselves that either something is wrong with the website, or something is wrong with them! Minimizing these grievances is the psychological key to making websites like these fun to use: they're intuitive.
 
+<!-- Images -->
 <div class="text-center p-4">
-  <img src="../img/dietaryfilters.png" width="650" style="display: inline-block; margin-right: 30px; cursor: pointer;" onclick="openModal(this)">
+  <img src="../img/dietaryfilters.png" width="650" style="display: inline-block; margin-right: 20px; cursor: pointer;" onclick="openModal(this)">
   <img src="../img/shoppinglistfromrecipe.png" width="650" style="display: inline-block; cursor: pointer;" onclick="openModal(this)">
 </div>
 
+<!-- Modal -->
 <div id="imgModal" onclick="closeModal()" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1000; justify-content:center; align-items:center;">
-  <img id="modalImg" style="max-width:90%; max-height:90%; box-shadow: 0 0 20px rgba(0,0,0,0.5); transform:scale(0); transition: transform 0.3s ease;">
+  <img id="modalImg" style="max-width:90%; max-height:90%; box-shadow: 0 0 20px rgba(0,0,0,0.5);">
 </div>
 
 <script>
   function openModal(img) {
     const modal = document.getElementById("imgModal");
-    const modalImg = document.getElementById("modalImg");
-    modalImg.src = img.src;
+    document.getElementById("modalImg").src = img.src;
     modal.style.display = "flex";
-    setTimeout(() => { modalImg.style.transform = "scale(1)"; }, 10);
   }
 
   function closeModal() {
-    const modalImg = document.getElementById("modalImg");
-    modalImg.style.transform = "scale(0)";
-    setTimeout(() => { document.getElementById("imgModal").style.display = "none"; }, 300);
+    document.getElementById("imgModal").style.display = "none";
   }
 </script>
 
