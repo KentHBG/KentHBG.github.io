@@ -24,7 +24,7 @@ I was responsible for several of the technical sides of our Shelf Awareness webs
 I mentioned sorting and filtering being one of the functionalities that I worked on, and for those all I really did was look for what would be the most useful filters people would likely use, like recipes they can afford to make or recipes they have the ingredients to make. I could've added more filters, but I felt like adding any more would complicate things. I wanted the website to be on the simpler side, where all it takes is one glance to get an understanding of how everything works. That meant choosing words and phrases that conveyed the purpose of those functions quickly. The last thing I'd want is for someone to go into the website, try to use some function, get a result that they didn't expect, and think to themselves that either something is wrong with the website, or something is wrong with them! Minimizing these grievances is the psychological key to making websites like these fun to use: they're intuitive.
 
 <div class="text-center p-4">
-  <img src="../img/dietaryfilters.png" width="600" style="display: inline-block;">
+  <img src="../img/dietaryfilters.png" width="600" style="display: inline-block; margin-right: 20px;">
   <img src="../img/shoppinglistfromrecipe.png" width="600" style="display: inline-block;">
 </div>
 
