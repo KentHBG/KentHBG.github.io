@@ -21,12 +21,11 @@ We were tasked with working on a project for the duration of our semester. For u
 I was responsible for several of the technical sides of our Shelf Awareness website's UI. My goal was to make using the website a more intuitive and receptive experience for the average user. What I first did was update a few pages on the website so that if the user would create or modify an entry on said page, it would update upon submission and be reflected on-screen immediately in real time than require a page refresh. I also added filters to the search functions of some pages, and made user data from certain pages accessible in other pages so that I could add more functions which were capable of referencing the user's data and using it to modify some other data belonging to the user, within the same page.
 
 <div class="text-center p-4">
-  <video width="900" controls>
-    <source src="../img/SJB/demo1.mp4" type="video/mp4">
-  </video>
+  <img src="../img/dietaryfilters.png" width="450" style="display: inline-block;">
+  <img src="../img/shoppinglistfromrecipe.png" width="450" style="display: inline-block;">
 </div>
 
-## Intuitive Functionality
+## My Favorite Implementations: Intuitive Functionality
 I mentioned sorting and filtering being one of the functionalities that I worked on, and for those all I really did was look for what would be the most useful filters people would likely use, like recipes they can afford to make or recipes they have the ingredients to make. I could've added more filters, but I felt like adding any more would complicate things. I wanted the website to be on the simpler side, where all it takes is one glance to get an understanding of how everything works. That meant choosing words and phrases that conveyed the purpose of those functions quickly. The last thing I'd want is for someone to go into the website, try to use some function, get a result that they didn't expect, and think to themselves that either something is wrong with the website, or something is wrong with them! Minimizing these grievances is the psychological key to making websites like these fun to use: they're intuitive.
 
 Those functions that cross-referenced user data across different pages also required that the user would know exactly what data was being referenced and what for. In the Shopping List page is a "Create From Recipe" button that generates a Shopping List using the ingredients present in a Recipe from the user's "Recipes" List. These Recipes can all be found in the Browse Recipes page which showcases each Recipe with an image that the user selects to represent the recipe. So, I thought these images would be integral to quickly realizing that the "Create From Recipe" function was selecting from the user's own list of Recipes, and I ended up implementing a modal window which could show just that (alongside the user's entire Recipe collection).
